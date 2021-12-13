@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T16:46:35.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="vZeR68J9teItIFFGd0lX" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-13T16:47:43.397Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="2rkKfpXeDO_z_nP5grGT" version="15.9.4" type="github" pages="3">
   <diagram id="tOl0ABkByHtshgWfH36g" name="Use case">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -265,8 +265,8 @@
         <mxCell id="a-mf5xK-BU-butNcgJY_-60" value="音センサ&lt;br&gt;モーションセンサ&lt;br&gt;反応あり？" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="520" y="210" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-Uq5ks_KmKbqLNOeUf3G-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;各デバイスの状態切り替え&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;拍手回数ｎ&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;浴室の電気をつける&lt;/li&gt;&lt;li&gt;お湯を出す・止める&lt;/li&gt;&lt;li&gt;テレビON・OFF&lt;/li&gt;&lt;li&gt;音楽ON・OFF&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;お湯の量がHIGHの時は、命令があってもお湯を出さない。&lt;/div&gt;&lt;div&gt;音楽は命令があるまで止まらない。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=12;strokeColor=default;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="40" y="910" width="393.75" height="190" as="geometry" />
+        <mxCell id="-Uq5ks_KmKbqLNOeUf3G-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;各デバイスの状態切り替え&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;拍手回数ｎ&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;浴室の電気をつける&lt;/li&gt;&lt;li&gt;お湯を出す・止める&lt;/li&gt;&lt;li&gt;テレビON・OFF&lt;/li&gt;&lt;li&gt;音楽ON・OFF&lt;/li&gt;&lt;li&gt;すべて初期化&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;お湯の量がHIGHの時は、命令があってもお湯を出さない。&lt;/div&gt;&lt;div&gt;音楽は命令があるまで止まらない。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=12;strokeColor=default;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="40" y="910" width="393.75" height="210" as="geometry" />
         </mxCell>
         <mxCell id="FZ6VrvXPmKXO-afzFe9K-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZ6VrvXPmKXO-afzFe9K-0" target="FZ6VrvXPmKXO-afzFe9K-3">
           <mxGeometry relative="1" as="geometry" />
