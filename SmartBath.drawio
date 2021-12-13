@@ -1,83 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T13:36:16.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="AyQ5QLxpupmEsobxiyab" version="15.8.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-13T13:53:18.234Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="9hX9ARBqzhuDOPdJI6BU" version="15.9.4" type="github" pages="3">
   <diagram id="tOl0ABkByHtshgWfH36g" name="Use case">
-    <mxGraphModel dx="942" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6ccSIB_XnEU-StcTXxv1-0" />
         <mxCell id="6ccSIB_XnEU-StcTXxv1-1" parent="6ccSIB_XnEU-StcTXxv1-0" />
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-2" value="スマートお風呂" style="swimlane;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-1">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-2" value="スマートお風呂" style="swimlane;" parent="6ccSIB_XnEU-StcTXxv1-1" vertex="1">
           <mxGeometry x="170" y="30" width="460" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-6" value="UC01&lt;br&gt;お風呂に入る" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-2">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-6" value="UC01&lt;br&gt;お風呂に入る" style="ellipse;whiteSpace=wrap;html=1;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
           <mxGeometry x="60" y="40" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-7" value="UC02&lt;br&gt;お風呂を空にする" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-2">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-7" value="UC02&lt;br&gt;お風呂を空にする" style="ellipse;whiteSpace=wrap;html=1;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
           <mxGeometry x="50" y="100" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-8" value="UC03&lt;br&gt;&lt;font color=&quot;#990000&quot;&gt;&amp;lt;&amp;lt; variation point &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;デバイスを操作する" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-2">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-8" value="UC03&lt;br&gt;&lt;font color=&quot;#990000&quot;&gt;&amp;lt;&amp;lt; variation point &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;デバイスを操作する" style="ellipse;whiteSpace=wrap;html=1;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
           <mxGeometry x="50" y="180" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-14" value="&lt;font color=&quot;#000000&quot;&gt;UC03-1&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;照明を操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-2">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-14" value="&lt;font color=&quot;#000000&quot;&gt;UC03-1&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;照明を操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
           <mxGeometry x="260" y="70" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-19" value="&lt;font color=&quot;#000000&quot;&gt;UC03-2&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;テレビを操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-2">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-19" value="&lt;font color=&quot;#000000&quot;&gt;UC03-2&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;テレビを操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
           <mxGeometry x="260" y="140" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-20" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-2" target="6ccSIB_XnEU-StcTXxv1-19">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-20" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-2" target="6ccSIB_XnEU-StcTXxv1-19" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="220" as="sourcePoint" />
             <mxPoint x="270" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-21" value="&lt;font color=&quot;#000000&quot;&gt;UC03-3&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;スピーカーを操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-2">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-21" value="&lt;font color=&quot;#000000&quot;&gt;UC03-3&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;スピーカーを操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
           <mxGeometry x="260" y="210" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-1">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="6ccSIB_XnEU-StcTXxv1-1" vertex="1">
           <mxGeometry x="100" y="150" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-6">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-6" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="160" as="sourcePoint" />
             <mxPoint x="440" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-7">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-7" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="170" as="sourcePoint" />
             <mxPoint x="440" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-1" source="6ccSIB_XnEU-StcTXxv1-8">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-12" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="6ccSIB_XnEU-StcTXxv1-1" source="6ccSIB_XnEU-StcTXxv1-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="150" as="sourcePoint" />
             <mxPoint x="140" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-17" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-14">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-17" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-14" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="250" as="sourcePoint" />
             <mxPoint x="440" y="70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-18" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=0;endSize=6;startSize=12;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-1" source="6ccSIB_XnEU-StcTXxv1-8">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-18" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=0;endSize=6;startSize=12;" parent="6ccSIB_XnEU-StcTXxv1-1" source="6ccSIB_XnEU-StcTXxv1-8" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="120" as="sourcePoint" />
             <mxPoint x="400" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-22" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-21">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-22" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-21" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="400" y="250" as="sourcePoint" />
             <mxPoint x="440" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Uvo1ztK2Qg0cgEb8WxS8-0" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px&quot;&gt;テストケース（入力と出力のセット）&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;メイン&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;声かけなし、お湯の量０、モータCLOSE&amp;nbsp;→ ブザーなし、モータCLOSE&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;声かけあり、お湯の量０ 、モータCLOSE→ ブザーあり、モータOPEN&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;声かけなし、お湯の量HIGH、モータOPEN&amp;nbsp;→ ブザーなし、モータCLOSE&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;拍手チェック&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手0回 → LED点灯なし&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手1～5回 → 1～5番目のLED点灯&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手6回→LED点灯なし＆ブザー&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手7～11回→&amp;nbsp;1～5番目(nー6番目)のLED点灯&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;お湯&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;お湯の量０、命令1回、CLOSE→ OPENに変化&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;お湯の量HIGH以下、命令3回、CLOSE→ OPENに変化後、CLOSEに変化後、OPEN&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;お湯の量HIGH、命令1回、OPEN→SLEEPに変化&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#990000;" vertex="1" parent="6ccSIB_XnEU-StcTXxv1-1">
-          <mxGeometry x="210" y="390" width="540" height="310" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="flow chart">
-    <mxGraphModel dx="942" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -277,11 +274,70 @@
         <mxCell id="-Uq5ks_KmKbqLNOeUf3G-8" value="&lt;h1&gt;&lt;font style=&quot;font-size: 15px&quot;&gt;各デバイスの状態切り替え&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;拍手回数ｎ&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;浴室の電気をつける&lt;/li&gt;&lt;li&gt;お湯を出す・止める&lt;/li&gt;&lt;li&gt;テレビON・OFF&lt;/li&gt;&lt;li&gt;音楽ON・OFF&lt;/li&gt;&lt;/ol&gt;&lt;div&gt;お湯の量がHIGHの時は、命令があってもお湯を出さない。&lt;/div&gt;&lt;div&gt;音楽は命令があるまで止まらない。&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;fontSize=12;strokeColor=default;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="910" width="393.75" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZ6VrvXPmKXO-afzFe9K-0" target="FZ6VrvXPmKXO-afzFe9K-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-0" value="" style="ellipse;fillColor=#000000;strokeColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="910" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-1" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="450" y="930" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZ6VrvXPmKXO-afzFe9K-3" target="FZ6VrvXPmKXO-afzFe9K-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-3" value="CLOSE" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="505" y="910" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-7" value="OPEN" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="715" y="910" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-11" value="Call" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZ6VrvXPmKXO-afzFe9K-3" target="FZ6VrvXPmKXO-afzFe9K-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="1010" as="sourcePoint" />
+            <mxPoint x="695" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-13" value="Call [W.level&amp;lt;HIGH]" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="715" y="940" as="sourcePoint" />
+            <mxPoint x="585" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-15" value="SLEEP" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="615" y="990" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-16" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;Call [W.level≧HIGH]&lt;/span&gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZ6VrvXPmKXO-afzFe9K-7" target="FZ6VrvXPmKXO-afzFe9K-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="950" as="sourcePoint" />
+            <mxPoint x="595" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-17" value="&lt;span style=&quot;background-color: rgb(255 , 255 , 255)&quot;&gt;initialize&lt;/span&gt;" style="endArrow=open;html=1;rounded=0;align=center;verticalAlign=bottom;endFill=0;labelBackgroundColor=none;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZ6VrvXPmKXO-afzFe9K-15" target="FZ6VrvXPmKXO-afzFe9K-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="930" as="sourcePoint" />
+            <mxPoint x="725" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-21" value="Call" style="curved=1;endArrow=classic;html=1;rounded=0;labelBackgroundColor=#FFFFFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FZ6VrvXPmKXO-afzFe9K-15" target="FZ6VrvXPmKXO-afzFe9K-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="365" y="830" as="sourcePoint" />
+            <mxPoint x="415" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="665" y="1050" />
+              <mxPoint x="655" y="1070" />
+              <mxPoint x="615" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FZ6VrvXPmKXO-afzFe9K-22" value="&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;b&gt;サーボモータ状態遷移図&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="860" width="190" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="xkdEnGDIqZ-4uYbFrwBx" name="Page-2">
-    <mxGraphModel dx="942" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="1MDK5DKHOnpBH_GhgxfY-0" />
         <mxCell id="1MDK5DKHOnpBH_GhgxfY-1" parent="1MDK5DKHOnpBH_GhgxfY-0" />
@@ -521,6 +577,9 @@
           <mxGeometry x="208" width="102" height="39" as="geometry">
             <mxRectangle width="102" height="39" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Zq2uMXUpseCOmcZ0T4h7-0" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot; style=&quot;font-size: 15px&quot;&gt;テストケース（入力と出力のセット）&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;メイン&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;声かけなし、お湯の量０、モータCLOSE&amp;nbsp;→ ブザーなし、モータCLOSE&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;声かけあり、お湯の量０ 、モータCLOSE→ ブザーあり、モータOPEN&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;声かけなし、お湯の量HIGH、モータOPEN&amp;nbsp;→ ブザーなし、モータCLOSE&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;拍手チェック&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手0回 → LED点灯なし&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手1～5回 → 1～5番目のLED点灯&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手6回→LED点灯なし＆ブザー&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;拍手7～11回→&amp;nbsp;1～5番目(nー6番目)のLED点灯&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;お湯&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;お湯の量０、命令1回、CLOSE→ OPENに変化&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;お湯の量HIGH以下、命令3回、CLOSE→ OPENに変化後、CLOSEに変化後、OPEN&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font color=&quot;#000000&quot;&gt;お湯の量HIGH、命令1回、OPEN→SLEEPに変化&amp;nbsp;&lt;/font&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" vertex="1" parent="1MDK5DKHOnpBH_GhgxfY-1">
+          <mxGeometry x="620" y="410" width="540" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
