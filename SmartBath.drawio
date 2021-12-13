@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2021-12-13T13:55:55.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="Rz_745gAGer9uTeje2sp" version="15.9.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-12-13T14:00:19.287Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="9HVVTCJ_DGi0UztVVYzz" version="15.9.4" type="github" pages="3">
   <diagram id="tOl0ABkByHtshgWfH36g" name="Use case">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="6ccSIB_XnEU-StcTXxv1-0" />
         <mxCell id="6ccSIB_XnEU-StcTXxv1-1" parent="6ccSIB_XnEU-StcTXxv1-0" />
         <mxCell id="6ccSIB_XnEU-StcTXxv1-2" value="スマートお風呂" style="swimlane;" parent="6ccSIB_XnEU-StcTXxv1-1" vertex="1">
-          <mxGeometry x="170" y="30" width="460" height="300" as="geometry" />
+          <mxGeometry x="170" y="30" width="480" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-6" value="UC01&lt;br&gt;お風呂に入る" style="ellipse;whiteSpace=wrap;html=1;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
+        <mxCell id="6ccSIB_XnEU-StcTXxv1-6" value="UC01&lt;br&gt;お風呂をためる" style="ellipse;whiteSpace=wrap;html=1;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
           <mxGeometry x="60" y="40" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="6ccSIB_XnEU-StcTXxv1-7" value="UC02&lt;br&gt;お風呂を空にする" style="ellipse;whiteSpace=wrap;html=1;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
@@ -20,16 +20,22 @@
           <mxGeometry x="260" y="70" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6ccSIB_XnEU-StcTXxv1-19" value="&lt;font color=&quot;#000000&quot;&gt;UC03-2&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;テレビを操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
-          <mxGeometry x="260" y="140" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-20" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-2" target="6ccSIB_XnEU-StcTXxv1-19" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="230" y="220" as="sourcePoint" />
-            <mxPoint x="270" y="100" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="290" y="160" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6ccSIB_XnEU-StcTXxv1-21" value="&lt;font color=&quot;#000000&quot;&gt;UC03-3&lt;/font&gt;&lt;br&gt;&amp;lt;&amp;lt; variant &amp;gt;&amp;gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;スピーカーを操作する&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fontColor=#990000;" parent="6ccSIB_XnEU-StcTXxv1-2" vertex="1">
-          <mxGeometry x="260" y="210" width="170" height="60" as="geometry" />
+          <mxGeometry x="290" y="250" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dPjSfOcP8zVvjP9GSWTh-0" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-2" source="6ccSIB_XnEU-StcTXxv1-8" target="6ccSIB_XnEU-StcTXxv1-14">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dPjSfOcP8zVvjP9GSWTh-2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-2" source="6ccSIB_XnEU-StcTXxv1-8" target="6ccSIB_XnEU-StcTXxv1-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="240" as="sourcePoint" />
+            <mxPoint x="280" y="120" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6ccSIB_XnEU-StcTXxv1-3" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="6ccSIB_XnEU-StcTXxv1-1" vertex="1">
           <mxGeometry x="100" y="150" width="30" height="60" as="geometry" />
@@ -52,22 +58,10 @@
             <mxPoint x="140" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-17" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-14" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="250" as="sourcePoint" />
-            <mxPoint x="440" y="70" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-18" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;startArrow=block;startFill=0;endSize=6;startSize=12;" parent="6ccSIB_XnEU-StcTXxv1-1" source="6ccSIB_XnEU-StcTXxv1-8" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="120" as="sourcePoint" />
-            <mxPoint x="400" y="250" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="6ccSIB_XnEU-StcTXxv1-22" value="" style="endArrow=none;html=1;rounded=0;fontColor=#990000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-21" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="400" y="250" as="sourcePoint" />
-            <mxPoint x="440" y="210" as="targetPoint" />
+        <mxCell id="dPjSfOcP8zVvjP9GSWTh-1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="endArrow=open;startArrow=none;endFill=0;startFill=0;endSize=8;html=1;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="6ccSIB_XnEU-StcTXxv1-1" target="6ccSIB_XnEU-StcTXxv1-19">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="360" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
